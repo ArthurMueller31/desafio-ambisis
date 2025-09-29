@@ -3,20 +3,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primaryColor: #000000;
-  --secondaryColor: #828282;
+  --primary-color: #000000;
+  --secondary-color: #828282;
+  --secondary-text-color: #4d6a99;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primaryColor: var(--primary-color);
+  --color-secondaryColor: var(--secondary-color);
+  --color-secondaryTextColor: var(--secondary-text-color)
   --font-inter: var(--font-inter);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
   }
 }
 
