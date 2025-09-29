@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${interFont.variable} antialiased`}>
+      <body className={`${interFont.variable} antialiased tracking-normal`}>
         <Navbar />
         {children}
       </body>
