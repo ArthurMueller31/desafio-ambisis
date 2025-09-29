@@ -1,4 +1,4 @@
-import EnvironmentalLicenses from "./_components/RegisterCompany/EnvironmentalLicenses";
+import EnvironmentalLicensesList from "./_components/RegisterCompany/EnvironmentalLicensesList";
 import Fields from "./_components/RegisterCompany/Fields";
 import Header from "./_components/RegisterCompany/Header";
 
@@ -7,7 +7,7 @@ export default function page() {
     <>
       <Header />
       <Fields />
-      <EnvironmentalLicenses />
+      <EnvironmentalLicensesList />
     </>
   );
 }

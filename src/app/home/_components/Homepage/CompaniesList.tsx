@@ -2,7 +2,7 @@ import { ChevronRight } from "lucide-react";
 
 export default function CompaniesList() {
   return (
-    <div className="relative flex h-auto w-full flex-col justify-between  overflow-x-hidden px-6">
+    <div className="relative flex h-auto w-full flex-col justify-between  overflow-x-hidden ">
       <div className="flex items-center min-h-[68px] justify-between cursor-pointer hover:bg-slate-50 transition-all duration-100">
         <div className="flex flex-col justify-center">
           <p className="font-medium leading-normal line-clamp-1">

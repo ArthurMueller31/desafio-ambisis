@@ -1,9 +1,9 @@
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 
-export default function EnvironmentalLicenses() {
+export default function EnvironmentalLicensesList() {
   return (
-    <div className="relative flex flex-col h-auto w-full mt-6 px-6 justify-between  overflow-x-hidden">
+    <div className="relative flex flex-col h-auto w-full mt-6 justify-between  overflow-x-hidden">
       <h2 className="text-xl font-medium">Licenças Ambientais</h2>
       <div className="flex items-center min-h-[68px] justify-between cursor-pointer transition-all duration-100">
         <div className="flex flex-col justify-center">
