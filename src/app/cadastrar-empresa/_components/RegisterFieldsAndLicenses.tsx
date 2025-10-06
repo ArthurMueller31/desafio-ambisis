@@ -27,6 +27,7 @@ export default function RegisterFieldsAndLicenses() {
       }
     });
 
+    // if user clicks on "Add license", he's redirected to /cadastrar-licenca
     const concludeOrRedirect =
       (formData.get("redirect") as string) || "conclude";
 
@@ -34,6 +35,7 @@ export default function RegisterFieldsAndLicenses() {
       redirect(`/cadastrar-licenca?empresaId=${empresa.id}`);
     }
 
+    // if "conclude", redirects to /home
     redirect(`/home`);
   }
 
