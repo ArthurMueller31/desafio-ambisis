@@ -10,10 +10,6 @@ export default function Header() {
           Preencha os campos abaixo para cadastrar uma nova empresa.
         </p>
       </div>
-
-      {/* <div className="w-full h-52 relative">
-        <Image src={"/images/building.png"} fill alt="building-image" className="rounded object-cover" />
-      </div> */}
     </main>
   );
 }

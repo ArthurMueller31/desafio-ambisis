@@ -1,13 +1,11 @@
-import EnvironmentalLicensesList from "./_components/RegisterCompany/EnvironmentalLicensesList";
-import Fields from "./_components/RegisterCompany/Fields";
-import Header from "./_components/RegisterCompany/Header";
+import RegisterFieldsAndLicenses from "./_components/RegisterFieldsAndLicenses";
+import Header from "./_components/Header";
 
 export default function page() {
   return (
     <>
       <Header />
-      <Fields />
-      <EnvironmentalLicensesList />
+      <RegisterFieldsAndLicenses />
     </>
   );
 }
