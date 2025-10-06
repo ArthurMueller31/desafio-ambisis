@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Empresa {
+  id Int @id @default(autoincrement())
+  razaoSocial String
+  cnpj String @unique
+  cep String
+  cidade String
+  estado String
+  bairro String
+  complemento String
+  licencas Licenca[] // 1:N
+
+}
+
+model Licenca {
+  id Int @id @default(autoincrement())
+  numero String // pode conter letras 
+  orgaoAmbiental String
+  emissao DateTime
+  validade DateTime
+  empresaId Int
+  empresa Empresa @relation(fields: [empresaId], references: [id], onDelete: Cascade)
+}
