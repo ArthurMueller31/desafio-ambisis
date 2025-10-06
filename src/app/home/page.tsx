@@ -1,5 +1,5 @@
-import CompaniesList from "./_components/Homepage/CompaniesList";
-import Header from "./_components/Homepage/Header";
+import CompaniesList from "./_components/CompaniesList";
+import Header from "./_components/Header";
 
 export default function page() {
   return (
