@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Data modeling
 
-## Getting Started
+# Guidelines to install and run the environment on localhost
 
-First, run the development server:
+#### First of all, make sure you have MySQL Server and MySQL Workbench installed (Workbench to see the data).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Open the terminal inside the project folder in your IDE
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Now you'll need to run a few commands (in this order):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### `npm install` - to install all the node_modules and necessary dependencies
 
-## Learn More
+#### `npx prisma generate` -
 
-To learn more about Next.js, take a look at the following resources:
+#### Now, you need to create a schema/use an existing one in MySQL
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Create a .env file in the root project folder
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### In the .env file, you need to follow this connection format:
 
-## Deploy on Vercel
+#### `DATABASE_URL=mysql://USER:PASSWORD@HOST:PORT/DATABASE`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Final .env variable example: 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### ``
+
+

@@ -49,6 +49,7 @@ export default function RegisterLicense({
           type="text"
           placeholder="Empresa"
           className="border p-2 rounded cursor-not-allowed bg-gray-100"
+          title="Esta licença está atrelada à essa empresa."
           disabled
           value={empresa!.razaoSocial}
           readOnly
