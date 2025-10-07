@@ -2,6 +2,8 @@ import { CircleUser, Leaf } from "lucide-react";
 import Link from "next/link";
 
 export default function Navbar() {
+
+  // logo and user circle are fictional
   return (
     <>
       <header className="fixed inset-x-0 top-0 z-50 border-b border-gray-200 bg-white">
