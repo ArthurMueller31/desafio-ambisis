@@ -107,19 +107,6 @@ export default async function CompanyDetails({
         </div>
 
         <div className="flex flex-col w-full">
-          <label htmlFor="estado">Estado</label>
-          <input
-            type="text"
-            id="estado"
-            name="estado"
-            defaultValue={empresa.estado}
-            placeholder="Digite o estado"
-            className="border p-2 rounded"
-            required
-          />
-        </div>
-
-        <div className="flex flex-col w-full">
           <label htmlFor="cidade">Cidade</label>
           <input
             type="text"
@@ -127,6 +114,19 @@ export default async function CompanyDetails({
             name="cidade"
             defaultValue={empresa.cidade}
             placeholder="Digite a cidade"
+            className="border p-2 rounded"
+            required
+          />
+        </div>
+
+        <div className="flex flex-col w-full">
+          <label htmlFor="estado">Estado</label>
+          <input
+            type="text"
+            id="estado"
+            name="estado"
+            defaultValue={empresa.estado}
+            placeholder="Digite o estado"
             className="border p-2 rounded"
             required
           />
