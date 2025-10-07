@@ -11,23 +11,8 @@ export default function Navbar() {
             className="flex items-center text-gray-900 font-semibold text-lg tracking-tight"
           >
             <p className="mr-1">EcoSystem</p>
-            <Leaf color="#00a63e"/>
+            <Leaf color="#00a63e" />
           </Link>
-
-          <nav>
-            <ul className="hidden md:flex items-center gap-6">
-              <li>
-                <Link href="/empresas" className="text-sm hover:underline">
-                  Empresas
-                </Link>
-              </li>
-              <li>
-                <Link href="/sobre" className="text-sm hover:underline">
-                  Licenças
-                </Link>
-              </li>
-            </ul>
-          </nav>
 
           <div>
             <CircleUser />
