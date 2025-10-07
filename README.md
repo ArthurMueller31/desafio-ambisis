@@ -63,6 +63,8 @@
 
 #### * If you don't see a "src/app/generated" folder, run `npx prisma generate`, to manually generate the folder.
 
+## Now, run `npm run dev` to see the website on localhost.
+
 ---
 
 > PT-BR
@@ -123,4 +125,6 @@
 <img width="801" height="104" alt="image" src="https://github.com/user-attachments/assets/efb5bc0c-4663-454b-a9c0-8bc35a34b78c" />
 
 #### * Caso não ver a pasta "src/app/generated", execute `npx prisma generate` para gerar manualmente.
+
+## Agora, execute `npm run dev` para ver o site no localhost.
 
