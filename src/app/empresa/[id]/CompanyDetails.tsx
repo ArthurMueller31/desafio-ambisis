@@ -10,7 +10,6 @@ export default async function CompanyDetails({
 }) {
   const id = parseInt(companyID, 10); // convert to Int in base 10 (decimal)
 
-  // search db
   const empresa = await prisma.empresa.findUnique({
     where: { id },
     include: {
